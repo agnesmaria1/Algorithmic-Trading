@@ -71,7 +71,7 @@ Graphic shown below is served as our baseline prior tuning the trading algorithm
 
 <img width="387" alt="Screen Shot 2022-09-08 at 7 19 31 AM" src="https://user-images.githubusercontent.com/105394703/189468553-50036e34-9262-4466-b488-7c4949bc501b.png">
 
-Graphic shown below is after tuning the offset to 5 months from our baseline of 3 months.
+Graphic shown below is after tuning the offset to 5 months from our baseline of 3 months. As you can see incresing the training windows gives the model more accuracy of the prediction overtime. The gap between the actual and strategy return are slowly closer. The model is more confident is giving the accuracy returns.
 
 <img width="384" alt="1" src="https://user-images.githubusercontent.com/105394703/189565185-b43e12d5-d605-46be-8d78-308b03f1be6f.png">
 
