@@ -71,11 +71,11 @@ Graphic shown below is served as our baseline prior tuning the trading algorithm
 
 <img width="387" alt="Screen Shot 2022-09-08 at 7 19 31 AM" src="https://user-images.githubusercontent.com/105394703/189468553-50036e34-9262-4466-b488-7c4949bc501b.png">
 
-Graphic shown below is after tuning the offset to 5 months from our baseline of 3 months. As you can see incresing the training windows gives the model more accuracy of the prediction overtime. The gap between the actual and strategy return are slowly closer. The model is more confident is giving the accuracy returns.
+Graphic shown below is after tuning the offset to 5 months from our baseline of 3 months. As you can see increasing input features offset gives the model more accuracy of the prediction overtime. The gap between the actual and strategy return are slowly closer. The model is more confident in giving the accuracy returns.
 
 <img width="384" alt="1" src="https://user-images.githubusercontent.com/105394703/189565185-b43e12d5-d605-46be-8d78-308b03f1be6f.png">
 
-Graphic shown below after adjusting the SMA from 4 and 100 days to 20 and 250 days.
+Graphic shown below after adjusting the SMA from 4 and 100 days to 20 and 250 days. Increasing both SMA windows giving the model the ability to predict more accurately.
 
 <img width="384" alt="SAM 20-250" src="https://user-images.githubusercontent.com/105394703/189566640-0570ad36-2331-4f14-8174-e499bfc63f0d.png">
 
@@ -83,3 +83,4 @@ Graphic shown below using AdaBoostClassifier trading algorithm.
 
 <img width="388" alt="Screen Shot 2022-09-08 at 7 19 59 AM" src="https://user-images.githubusercontent.com/105394703/189489309-35594234-05a2-4a4f-bd56-420a6e31cc41.png">
 
+In conclusion, the more data for the model to learn and the length history of the data, the model will trained more accurately in predicting more profit and less loss.
