@@ -64,6 +64,9 @@ This project brought to you by Agnes.
 ## License
 MIT License
 
+---
+## Evaluation Report
+
 Graphic shown below is served as our baseline prior tuning the trading algorithm.
 
 <img width="387" alt="Screen Shot 2022-09-08 at 7 19 31 AM" src="https://user-images.githubusercontent.com/105394703/189468553-50036e34-9262-4466-b488-7c4949bc501b.png">
@@ -72,8 +75,11 @@ Graphic shown below is after tuning the offset to 5 months from our baseline of 
 
 <img width="384" alt="1" src="https://user-images.githubusercontent.com/105394703/189565185-b43e12d5-d605-46be-8d78-308b03f1be6f.png">
 
+Graphic shown below after adjusting the SMA from 4 and 100 days to 20 and 250 days.
 
-Graphic shown below using the new model with updated trading algorithm.
+<img width="384" alt="SAM 20-250" src="https://user-images.githubusercontent.com/105394703/189566640-0570ad36-2331-4f14-8174-e499bfc63f0d.png">
+
+Graphic shown below using AdaBoostClassifier trading algorithm.
 
 <img width="388" alt="Screen Shot 2022-09-08 at 7 19 59 AM" src="https://user-images.githubusercontent.com/105394703/189489309-35594234-05a2-4a4f-bd56-420a6e31cc41.png">
 
